@@ -1,5 +1,6 @@
 <# The script below is to check/verify the current CPU utilization of the target host. Though the script will only capture a single host, but to manage multiple hosts,
 use the "foreach" condition/loop and then define a text file that contains multiple hosts to gather CPU utilization.
+#>
 $hostname = 'target host'            ## Target host
 $username = 'admin user id'          ## User ID with admin privilege
 $passwd = 'domain password'          ## Domain Password
