@@ -1,5 +1,5 @@
 <### This script is to automate the process of decommissioning of servers to gracefully shutdown in vCenter and label it accordingly.
-Upon turning off the target VMs in automated way, the target hosts will automate the process to move the powered off VMs to the specific container in vCenter.
+Upon turning off the target VMs in automated way, the script will automate the process to move the powered off and renamed VMs to the specific container in vCenter.
 ###>
 
 $username = 'username'                          ## This is your domain user id
