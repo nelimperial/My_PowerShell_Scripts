@@ -1,3 +1,6 @@
+<# This script will gather the disk space utilization of Logical Drives or Volumes against a single host. Use "foreach" condition/loop if you want to run this script against multiple hosts.
+Define a text file as container of multiple hosts and use Get-Content cmdlet. To use extract the result use the -Append parameter.
+#>
 $hostname = 'hostname'       #Target host
 $username = 'userid'         #System Admin account
 $passwd = 'domain_password'  #Domain System Admin password
